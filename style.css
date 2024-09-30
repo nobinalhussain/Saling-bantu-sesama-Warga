@@ -1,0 +1,309 @@
+/* ========= Shared Styles ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ========= set 10px Default Size ========= */
+:root {
+  font-size: 62.5%;
+  
+}
+body {
+  margin: 15px 120px;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ========== Nav bar Style START =========== */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar img {
+  width: 100px;
+}
+.navbar-nav {
+  font-size: 1.8rem;
+}
+.navbar-nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar-nav li a {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #656161;
+  font-weight: 500;
+}
+.navbar-nav li a:hover {
+  color: #5669ff;
+}
+#current-tab {
+  color: #5669ff;
+}
+
+.btn button {
+  background-color: #5669ff;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #0a1020;
+}
+
+/* ========== Nav bar Style END =========== */
+
+/* ========== Hero Section Style START =========== */
+
+.hero {
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+}
+.hero-img {
+  display: flex;
+}
+.img1 {
+  width: 261.04px;
+  height: 565.6px;
+}
+.img2 {
+  width: 332.14px;
+  height: 720.22px;
+}
+.highlights {
+  color: #5669ff;
+}
+.hero-content {
+  margin-bottom: 20px;
+}
+.hero-content h1 {
+  font-size: 5.2rem;
+}
+.hero-content p {
+  font-size: 1.6rem;
+  margin: 10px 0;
+  font-weight: 400;
+  color: #656161;
+}
+.hero-content form input {
+  width: 405px;
+  height: 56px;
+  padding: 0px 20px;
+  font-size: 1.4rem;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  border: 0px;
+  box-shadow: 4px 10px 16px -4px #3e3d3d42;
+  border-radius: 8px;
+}
+.hero-content form {
+  border: none;
+  position: relative;
+}
+.hero-content input::placeholder {
+  color: #656161;
+}
+.hero-content button {
+  border: none;
+}
+.hero-content i {
+  position: absolute;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  right: 130px;
+  bottom: 21px;
+  background-color: #5669ff;
+}
+
+/* ========== Hero Section Style END =========== */
+/* ========== Cards Section Style Start =========== */
+.card-area .btn {
+  display: flex;
+  align-items: center;
+}
+.card-area h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+.card-area > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card-container-box1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.card-container-box1 h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.card-container-box1 p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 20px;
+}
+.card {
+  background-color: rgb(222, 253, 253);
+  padding: 20px;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 4px 10px 16px -4px #3e3d3d42;
+}
+.card-container-box2 {
+  display: flex;
+}
+.card-container-box2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.card-container-box2 h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.card-container-box2 p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 20px;
+}
+
+/* ========== Cards Section Style END =========== */
+/* ========== APP Section Style START =========== */
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+/* .app-container-img {
+  background-color: #0a1020;
+  border-radius: 50%;
+} */
+.app-container-img img {
+  margin-left: -20px;
+}
+
+.open-btn {
+  border-left: 4px solid #5669ff;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.open-btn a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #5669ff;
+}
+.container-text h2 {
+  font-size: 5rem;
+}
+.container-text p {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+/* ========== APP Section Style END =========== */
+/* ========== Covid info Section Style start =========== */
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-info {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  padding-right: 100px;
+}
+.list-info h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.list-info p {
+  font-size: 1.6rem;
+}
+.info h2 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.img-info {
+  position: relative;
+}
+
+.img-info-img2 {
+  position: absolute;
+  right: 1px;
+  top: -10px;
+}
+
+/* ========== Covid info Section Style end =========== */
+========== Contact Section Style start =========== */
+.contact-main {
+  margin-top: 100px;
+}
+.contact-main h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 50px 0;
+  color: #5669ff;
+  text-align: center;
+}
+.contact-form p {
+  font-size: 1.6rem;
+}
+
+.contact-box {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.contact-form form::placeholder {
+  color: #656161a8;
+  margin-left: 20px;
+}
+.contact-form form input {
+  padding: 10px 50px 10px 2px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 4px 10px 16px -4px #3e3d3d42;
+}
+.contact-form form textarea {
+  padding: 10px 50px 50px 2px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 4px 10px 16px -4px #3e3d3d42;
+}
+
+/* ========== contact Section Style end =========== */
+
+/* ========== Footer Section Style start =========== */
+footer {
+  background-color: #5669ff;
+  color: #fff;
+}
+
+/* ========== Footer Section Style end ===========
